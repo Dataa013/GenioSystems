@@ -1,0 +1,308 @@
+.des {
+    margin-bottom: 90px;
+}
+
+
+.des-inner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.des-title {
+/* position: relative; */
+display: flex;
+flex-direction: column;
+}
+
+.des-title-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 16px;
+    color: black;
+}
+
+.des-bg {
+    margin-top: 20px;
+    position: relative;
+}
+
+.des-bg::before {
+    position: absolute;
+    content: '';
+    background: #A1A4AC;
+    width: 100%;
+    height: 1px;
+}
+
+.des-bg::after {
+    position: absolute;
+    content: '';
+    background: #f57b0a;
+    border-radius: 15px;
+    width: 50px;
+    height: 10px;
+    top: -5px;
+}
+
+
+
+.des-items {
+    margin-top: 25px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.des-item {
+    position: relative;
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin: 15px 10px;
+    user-select: none;
+}
+
+.des-item:hover .des-item-text {
+    background-color: #f57b0a;
+}
+
+.des-item-img {
+    display: block;
+    max-width: 450px;
+    max-height: 250px;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.des-item-img img {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: 300ms;
+}
+
+
+.des-item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+
+    position: absolute;
+
+    background-color: black;
+    transition: 250ms;
+    
+
+    width: 100%;
+    padding: 25px 0;
+}
+
+
+.des-item-hover {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: rgba(250, 242, 242, 0.9);
+    /* background: #fff; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    visibility: hidden;
+    border: 1px solid #A1A4AC;
+    opacity: 0;
+    transition: opacity 300ms ease-out 0ms;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.des-item-hover-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    line-height: 16px;
+    font-family: sans-serif;
+
+    width: 100%;
+    height: 100%;
+}
+
+.des-item-hover-text span {
+    margin: 3px 0;
+}
+
+
+.des-item:hover .des-item-hover {
+    left: 30%;
+    top: -50%;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.des-item:hover .des-item-img img {
+    opacity: 1;
+}
+
+.text-bottom {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 1220px) {
+
+    .des-item:hover .des-item-hover {
+        left: 5%;
+        top: -50%;
+        opacity: 1;
+        visibility: visible;
+    }
+   
+}
+
+
+@media (max-width: 860px) {
+
+    .des-item {
+        position: relative;
+        /* max-width: 350px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        user-select: none;
+        margin: 15px 10px;
+        user-select: none;
+    }
+
+    .des-item-text {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 25px 0;
+    }
+}
+
+
+@media (max-width: 790px) {
+
+    .des-item {
+        max-width: 400px;
+        margin: 35px 10px;
+    }
+
+    .des-item-hover-text {
+        padding: 10px 20px;
+        font-size: 13px;
+        line-height: 17px;
+    
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+@media (max-width: 685px) {
+    
+    .des-item:hover .des-item-hover {
+        left: 20%;
+        top: -50%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .des-item-hover-text {
+        padding: 5px 10px;
+        font-size: 12px;
+        line-height: 16px;
+    
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    .des-title-text {
+        font-size: 23px;
+    }
+
+    .des-items {
+        margin-top: 45px;
+    }
+
+    .des-item:hover .des-item-hover {
+        left: 0%;
+        top: -60%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .text-bottom-one {
+        margin-top: 5px;
+        display: block;
+    }
+
+    .text-bottom-one span {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    
+    .des {
+        margin-bottom: 90px;
+    }
+
+    .item-hover-text-span {
+        display: none;
+    }
+
+    .des-item:hover .des-item-hover-one {
+        left: 0%;
+        top: -25%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+.des-title-text {
+    font-size: 20px;
+}
+
+.text-bottom-one {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media (max-width: 375px) {
+    .des-item-text {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 15px 0;
+    }
+}

@@ -1,0 +1,142 @@
+.map {
+}
+
+.map-inner {
+position: relative;
+}
+
+.map-items {
+position: absolute;
+left: 0;
+top: 100px;
+}
+
+.map-item {
+    background-color: #4D5152;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.map-item-title {
+    position: relative;
+}
+
+.map-item-title-line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    margin-top: 10px;
+}
+
+.map-item-title-line::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 10px;
+    border-radius: 15px;
+    background: #F28F34;
+
+    bottom: -5px;
+}
+
+.map-item-title h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+}
+
+.map-item-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.map-item-location {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: hsl(0, 11%, 88%);
+}
+
+.map-item-call {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: hsl(0, 11%, 88%);
+    margin: 20px 0;
+}
+
+.map-item-email {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 11%, 88%);
+    line-height: 16px;
+}
+
+.icon-class {
+    display: flex;
+    align-items: center;
+}
+
+.icon-left {
+    margin-right: 7px;
+}
+
+iframe {
+    vertical-align: middle;
+
+}
+
+
+@media (max-width: 1100px) {
+    .map-item-title h3 {
+        font-size: 16px;
+    }
+
+
+    .map-item-location {
+        font-size: 14px;
+    }
+    
+    .map-item-call {
+        font-size: 14px;
+    }
+    
+    .map-item-email {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 980px) {
+
+    .map-items {
+        position: absolute;
+        left: 0;
+        top: 270px;
+        }
+
+        
+    .map-item-contact {
+        margin-top: 25px;
+    }
+    .map-item-call {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 670px) {
+    .map-item {
+        background-color: #4D5152;
+        max-width: 300px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.footer {
+    background: #333637;
+    position: relative;
+}
+
+.footer-line {
+    background: #F28F34;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    /* z-index: 999; */
+}
+
+.footer-inner {
+display: flex;
+justify-content: center;
+}
+
+
+.footer-items {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item-link {
+    text-decoration: none;
+    color: #979797;
+    font-size: 30px;
+    margin: 20px 15px;
+    transition: 200ms;
+}
+
+.footer-item-link:hover {
+        color: #F28F34;
+}
+
+
+
+
+
+

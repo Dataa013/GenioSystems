@@ -1,0 +1,165 @@
+.partners {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+.partners-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+}
+.partners-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0 50px;
+}
+
+.partners-title {
+    display: flex;
+    flex-direction: column;
+}
+.partners-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 16px;
+    color: gray;
+}
+
+.partners-head-bg {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.partners-head-bg::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #848F9D;
+}
+
+
+
+.partners-item {
+    display: flex;
+    align-items: center;
+    max-width: 210px;
+    background-color: white;
+    padding: 70px 50px;
+    border: 1px solid #F8F8F8;
+    transition: 300ms;
+
+    margin: 8px 0;
+}
+
+.partners-item:hover {
+    border: 1px solid #F57B0A;
+}
+
+.partners-item-img {
+}
+
+.partners-item-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+.slick-slider {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 20px; */
+  }
+  .slick-list {
+    position: relative;
+    display: block !important;
+    overflow: hidden;
+    padding: 40px 0 !important;
+    width: 100%;
+  }
+
+  .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
+.slick-arrow {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    display: flex;
+    color: transparent;
+    display: none;
+    visibility: none;
+    opacity: 0;
+}
+
+
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: flex !important;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+
+    margin: 0 10px;
+    
+    border: none;
+    border-radius: 100%;
+    background-color: #D4D4D4;
+    
+    text-indent: -9999px;
+    cursor: pointer;
+
+    transition: 300ms;
+}
+
+.slick-dots .slick-active button {
+    background-color: #F57B0A;
+    width: 14px;
+    height: 14px;
+}
+
+
+@media (max-width: 600px) {
+    .partners-head {
+        font-size: 23px;
+    }
+}
+
+
+
+@media (max-width: 430px) {
+    .partners-head {
+        font-size: 15px;
+    }
+}
