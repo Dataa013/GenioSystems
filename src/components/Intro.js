@@ -7,8 +7,8 @@ export default function Intro() {
           
                 <div className='image-back'>
                   <div className='intro-bg'>
-                      {/* <video autoPlay loop muted src='../../videos/datacenter.mp4'/> */}
-                     <img src='../../images/mobilealternative.jpg'/>
+                      <video autoPlay loop muted src='../../videos/seconddata.mp4'/>
+                     {/* <img src='../../images/mobilealternative.jpg'/> */}
                   </div>
                 </div>
 

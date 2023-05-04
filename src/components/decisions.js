@@ -18,7 +18,7 @@ function decisions() {
 
                 <div className='des-item'>
                         <Link className='des-item-img'>
-                            <img src='../../images/Server.jpg'/>
+                            <img src='../../images/servers.jpg'/>
                         </Link>
                        <h3 className='des-item-text'>სერვერები და მონაცემთა შენახვის სისტემები</h3>
 

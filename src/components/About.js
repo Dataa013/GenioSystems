@@ -17,7 +17,7 @@ function About() {
 
             <div className='about-items'>
                 <div className='about-img'>
-                    <img  src='../../images/mobilealternative.jpg'/>
+                    <img  src='../../images/changed.jpg'/>
                 </div>
 
                   <div className='about-item'>
