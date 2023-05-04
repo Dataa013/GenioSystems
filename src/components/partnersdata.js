@@ -72,7 +72,7 @@ export default [
 
     {
         id: 11,
-        to: 'https://www.juniper.net/',
+        to: 'https://www.Juniper.net/',
         image: '../../images/juniper.svg',
         target: '_blank'
     },
@@ -94,7 +94,7 @@ export default [
     {
         id: 14,
         to: 'https://www.apc.com/ge/ru/',
-        image: '../../images/Apc.svg',
+        image: '../../images/APC.svg',
         target: '_blank'
     },
 
