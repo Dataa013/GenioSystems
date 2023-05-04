@@ -73,7 +73,7 @@ export default [
     {
         id: 11,
         to: 'https://www.Juniper.net/',
-        image: '../../images/juniper.svg',
+        image: '../../images/Juniper.svg',
         target: '_blank'
     },
 
