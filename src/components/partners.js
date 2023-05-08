@@ -11,30 +11,30 @@ export default function
 
     const settings = {
         arrows: true,
-        rows: 2,
+        rows: 1,
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 6,
-        slidesToScroll: 3,
+        slidesToScroll: 6,
         autoplay: true,
         autoplaySpeed: 5000,
         responsive: [
                 {
                     breakpoint: 1100,
                     settings: {
-                        rows: 2,
+                        rows: 1,
                         slidesToShow: 4,
-                        slidesToScroll: 3,
+                        slidesToScroll: 4,
                     }
                 },
 
                 {
                     breakpoint: 800,
                     settings: {
-                        rows: 3,
+                        rows: 2,
                         slidesToShow: 3,
-                        slidesToScroll: 2,
+                        slidesToScroll: 3,
                     }
                 },
 
@@ -50,9 +50,9 @@ export default function
                 {
                     breakpoint: 530,
                     settings: {
-                        rows: 5,
+                        rows: 4,
                         slidesToShow: 2,
-                        slidesToScroll: 3,
+                        slidesToScroll: 2,
                     }
                 },
 
