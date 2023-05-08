@@ -23,7 +23,7 @@ function NavBar() {
 
                 <div className='menu-items-head'  >
                     <Link className='header-logo' to='/'>
-                        <img  src='../../images/gen.svg'/>
+                        <img  src='../../images/newlogo.png'/>
                     </Link>
                 <ul className='menu-items' ref={navRef}>
 
